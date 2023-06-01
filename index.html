@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/07c86b072d.js" crossorigin="anonymous"></script>
+     
+</head> 
+<body>
+    <div class="backgroung-img">
+
+    
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/Osmar-removebg-preview.png" class="logo">
+                <ul id="menu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Enginer</p>
+                <h1>Hi , I'm <span>Osmar Graça</span><br> Welcome to my portfolio </h1>
+            </div>
+        </div>
+    </div>
+    <!---------------------------------Background------------------->
+   
+    <!-----------------------about------------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/PNG image.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>I am highly ambitious and curious, with experience in sales and management. 
+                       I am meticulous, dedicated and responsible. I intend to change my career path and enter the IT world, 
+                       in a company where I can learn and grow continuously.</p>
+                       
+                       <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                       </div>
+                       <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li> <span>JAVA</span> <br> Tenho experiência em programação orientada a objetos em Java, usando a linguagem de programação baseada em classes e objetos, criação de varios jogos em java. </li>
+                            <li> <span>HTML</span> <br> Criação de websites </li>
+                            <li> <span>PYTHON</span> <br> Criação de varios projetos </li>
+                        </ul>
+                       </div>
+                       <div class="tab-contents" id="experience">
+                        <ul>
+                            <li> <span>Schenker</span> <br> Gestor de frota nacional </li>
+                        </ul>
+                       </div>
+                       <div class="tab-contents" id="education">
+                        <ul>
+                            <li> <span>2020-ATUAL</span> <br>Universidade Autonuma de Lisboa-Computer engineering </li>
+                            <li> <span>2016-2019</span> <br>Dual-Tecnico de apoio a Gestão </li>
+                            <li> <span>2011-2016</span> <br>All Saints Catholic school-GCSE </li>
+                        </ul>
+                       </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------projects---------------------------------->
+    <div id="projects">
+
+        <div class="container">
+            <h1 class="sub-title">My projects</h1>
+            <div class="projects-list">
+                <div>
+                    <i class="fa-brands fa-python"></i>  <i class="fa-solid fa-gamepad"></i>
+                    <h2>Mancala</h2>
+                    <p>Mancala é um jogo de tabuleiro com 12 buracos e duas caixas. Cada jogador tem 18 bolinhas que coloca nos seus buracos. O jogo é pegar as bolinhas de um buraco e ir colocando uma em cada buraco seguinte, até acabar. Se a última bolinha cair na caixa do jogador, ele joga de novo. Se cair em um buraco vazio do seu lado, ele pega as bolinhas do buraco oposto do adversário e coloca na sua caixa. O jogo acaba quando não tiver mais bolinhas para jogar. Quem tiver mais bolinhas na caixa, ganha.</p>
+                    <a href="mancala.html"> Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-java"></i> <i class="fa-solid fa-gamepad"></i>
+                    <h2>Projeto 2</h2>
+                    <p>Descrição</p>
+                    <a href="#"> Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i> 
+                    <h2>Projeto 3</h2>
+                    <p>Descrição</p>
+                    <a href="#"> Learn more</a>
+                </div>
+            </div>
+        </div>
+ 
+    </div>
+<!-----------------------Contac me------------------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="con-left">
+                <h1 class="sub-title"> Contact me</h1>
+                <img src="Images/0bec1c94fc32d35aec3f0b4106576306-sticker.png">
+                <p><i class="fa-solid fa-envelope"></i>osmar.graca@icloud.com</p>
+                <p><i class="fa-solid fa-mobile"></i>+351 963125443</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/osmar-graça-6b44b4143/"><i class="fa-brands fa-linkedin"> <span>Linkdin</span></i></a>
+                </div>
+                <a href="Images/Osmar Graça CV - 2023.pdf" download class="btn">Download CV</a>
+            </div>
+            <div class="con-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Name" required>
+                    <input type="email" email="Email" placeholder="Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your message" ></textarea>
+                    <button type="submit" class="btn2">Enviar</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> Copyright © Osmar Afonso Graça. Made by Osmar Graça </p>
+    </div>
+</div>
+</div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+
+    var menus = document.getElementById("menu");
+
+    function openmenu(){
+        menus.style.right = "0";
+    }
+    function closemenu(){
+        menus.style.right = "-200px" ;
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxVpCLuwRx5ATTxoysb9XvUUj8Cuvy0MEg5JctoA2_mXKIAQqxoaSMXl8PDQmkOJbsj/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg =document.getElementById("msg");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Meensagem enviada com sucesso"
+            setTimeout(function(){
+                msg.innerHTML =""
+            },500)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html> 
