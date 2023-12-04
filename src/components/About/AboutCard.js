@@ -20,7 +20,7 @@ Engineering studies.
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Playing Chess
             </li>
             <li className="about-activity">
               <ImPointRight /> Go to the gym

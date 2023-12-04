@@ -28,11 +28,11 @@ function Home2() {
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="textcolor">Web Technologies and Products. </b>
+                <b className="textcolor">Web apps. </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
+              Whenever possible, I also apply my passion for developing web apps
               with <b className="textcolor">Node.js</b> and
               <i>
                 <b className="textcolor">
@@ -71,7 +71,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/osmar-da-graça-6b44b4143/"
+                  href="http://linkedin.com/in/osmar-gra%C3%A7a"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+import osmarImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 
 function About() {
@@ -20,17 +20,17 @@ function About() {
               paddingBottom: "50px",
             }}
           >
-            <h1 style={{marginRight:"250px", fontSize: "2.1em", paddingBottom: "20px"}}>
+            <h1 style={{fontSize: "2.1em", paddingBottom: "20px"}}>
               Who`s <strong className="textcolor">Osmar Graça ?</strong>
             </h1>
             <Aboutcard />
           </Col>
           <Col
             md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" , transform: "rotate(-90deg)"}}
+            style={{ paddingTop: "120px", paddingBottom: "50px" , transform: "rotate(-90deg)" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <img src={osmarImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
         <h1 className="project-heading">
