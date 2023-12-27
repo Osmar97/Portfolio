@@ -20,14 +20,19 @@ function About() {
               paddingBottom: "50px",
             }}
           >
-            <h1 style={{fontSize: "2.1em", paddingBottom: "20px"}}>
+            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
               Who`s <strong className="textcolor">Osmar Graça ?</strong>
             </h1>
             <Aboutcard />
           </Col>
           <Col
             md={4}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
+            xs={12}
+            style={{
+              paddingTop: "120px",
+              paddingBottom: "50px",
+              transform: "rotate(-90deg)",
+            }}
             className="about-img rotate-90"
           >
             <img src={osmarImg} alt="about" className="img-fluid" />
