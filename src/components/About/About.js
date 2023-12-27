@@ -26,9 +26,9 @@ function About() {
             <Aboutcard />
           </Col>
           <Col
-            md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" , transform: "rotate(-90deg)" }}
-            className="about-img"
+            md={4}
+            style={{ paddingTop: "120px", paddingBottom: "50px" }}
+            className="about-img rotate-90"
           >
             <img src={osmarImg} alt="about" className="img-fluid" />
           </Col>
