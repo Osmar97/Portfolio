@@ -516,6 +516,13 @@ button:focus {
   color: white !important;
   overflow-x: hidden;
 }
+.rotate270-chrome {
+  transform: rotate(270deg);
+ }
+ 
+ .rotate270-safari {
+  transform: rotate(0deg);
+ }
 
 .tech-icons {
   font-size: 4.5em !important;

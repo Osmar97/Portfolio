@@ -7,6 +7,16 @@ import osmarImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 
 function About() {
+  const userAgent = navigator.userAgent.toLowerCase();
+  const isChrome = /chrome/.test(userAgent);
+  const isSafari = /safari/.test(userAgent);
+
+  const rotateClass = isChrome
+    ? "rotate270-chrome"
+    : isSafari
+    ? "rotate270-safari"
+    : "";
+
   return (
     <Container fluid className="about-section">
       <Particle />
@@ -31,9 +41,8 @@ function About() {
             style={{
               paddingTop: "120px",
               paddingBottom: "50px",
-              transform: "rotate(-90deg)",
             }}
-            className="about-img rotate-90"
+            className={`about-img ${rotateClass}`}
           >
             <img src={osmarImg} alt="about" className="img-fluid" />
           </Col>
