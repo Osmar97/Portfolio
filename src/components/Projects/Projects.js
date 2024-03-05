@@ -1,12 +1,12 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
-import pharm from "../../Assets/Projects/pharm.png";
-import tictac from "../../Assets/Projects/tictactoe.png";
+import { Col, Container, Row } from "react-bootstrap";
 import mancala from "../../Assets/Projects/mancala.png";
+import pharm from "../../Assets/Projects/pharm.png";
 import cinema from "../../Assets/Projects/sala.png";
 import sodoku from "../../Assets/Projects/sodoku.png";
+import tictac from "../../Assets/Projects/tictactoe.png";
+import Particle from "../Particle";
+import ProjectCard from "./ProjectCards";
 
 function Projects() {
   return (
@@ -24,7 +24,7 @@ function Projects() {
             <ProjectCard
               imgPath={pharm}
               title="Full Stack Web application"
-              description="I’m currently working on an exciting full-stack project, a pharmacy website, using Next.js, MongoDB, Firebase, Strapi, and Tailwind CSS. This project aims to provide a seamless and user-friendly platform for customers to access pharmaceutical information, browse products, and make purchases."
+              description="A full-stack project, a pharmacy website, using Next.js, MongoDB, Firebase, Strapi, and Tailwind CSS. This project aims to provide a seamless and user-friendly platform for customers to access pharmaceutical information, browse products, and make purchases."
               ghLink="https://github.com/Osmar97/Pharm-Website.git"
             />
           </Col>
